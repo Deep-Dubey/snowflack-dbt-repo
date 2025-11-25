@@ -1,1 +1,1 @@
-select * from DB_ECOMM.SC_ECOMM.Users
+select * from DB_ECOMM.SC_ECOMM.Users limit 10
