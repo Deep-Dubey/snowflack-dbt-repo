@@ -1,0 +1,14 @@
+sources:
+  - name: "Dbt Demo"
+    database: 'DB_ECOMM'
+    schema: 'SC_ECOMM'
+    tables:
+      - name: 'USERS'
+
+models:
+  - name: "users_dbt"
+    config:
+      +materialized: 'table'
+  - name: "demo_dbt"
+    config:
+      +materialized: 'view'

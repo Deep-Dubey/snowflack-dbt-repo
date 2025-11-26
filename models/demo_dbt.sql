@@ -1,1 +1,3 @@
+-- {{ config(materialized='table') }}
+
 select * from DB_ECOMM.SC_ECOMM.Users
