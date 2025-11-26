@@ -3,6 +3,5 @@ version: '1.0.0'
 
 model-paths: ["models"]
 
-models:
-  my_dbt_project:
-    +materialized: table
+# models:
+#   materialized: 'table'
