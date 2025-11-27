@@ -1,3 +1,3 @@
 -- {{ config(materialized='table') }}
 
-select * from DB_ECOMM.SC_ECOMM.Users
+select * from {{ source('Dbt Demo', 'USERS') }}
