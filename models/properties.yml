@@ -4,6 +4,7 @@ sources:
     schema: 'SC_ECOMM'
     tables:
       - name: 'USERS'
+      - name: 'orders'
 
 models:
   - name: "users_dbt"
@@ -12,3 +13,6 @@ models:
   - name: "demo_dbt"
     config:
       +materialized: 'view'
+  # - name: "custv_4"
+  #   config:
+  #     materialized: 'ephemeral'
