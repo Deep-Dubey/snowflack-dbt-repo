@@ -4,6 +4,7 @@ version: '1.0.0'
 model-paths: ["models"]
 seed-paths: ["seeds"]
 analysis-paths: ["analysis"]
+macro-paths: ["macros"]
 
 # models:
 #   materialized: 'table'
