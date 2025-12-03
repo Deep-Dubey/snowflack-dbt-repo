@@ -1,4 +1,4 @@
-{#Comments in jinja#}
+{#Comments in jinja when we compile jinja comment it will not compiled#}
 {{['Deep',11111]}}
 -- when i run this in name it provide space above it
 {% set name = "Deep Dubey"%}
