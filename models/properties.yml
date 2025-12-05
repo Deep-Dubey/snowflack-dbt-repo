@@ -6,6 +6,7 @@ sources:
       - name: 'USERS'
       - name: 'orders'
       - name: 'person_sales'
+      - name: 'SCDS'
 
 models:
   - name: "users_dbt"

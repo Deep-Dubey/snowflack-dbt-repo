@@ -5,6 +5,7 @@ model-paths: ["models"]
 seed-paths: ["seeds"]
 analysis-paths: ["analysis"]
 macro-paths: ["macros"]
+snapshot-paths: ["snapshot"]
 
 # models:
 #   materialized: 'table'
